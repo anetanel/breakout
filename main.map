@@ -1,0 +1,255 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=000465  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00000C  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000010  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=00005C  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(add.o):
+    CODE              Offs=000465  Size=00001C  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(callmain.o):
+    CODE              Offs=000481  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=00005C  Size=000004  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(condes.o):
+    CODE              Offs=000498  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000060  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(crt0.o):
+    BSS               Offs=000010  Size=000005  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=000063  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(decsp1.o):
+    CODE              Offs=0004A4  Size=000009  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(decsp2.o):
+    CODE              Offs=0004AD  Size=00000D  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(incsp1.o):
+    CODE              Offs=0004BA  Size=000007  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(incsp2.o):
+    CODE              Offs=0004C1  Size=000016  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(memcpy.o):
+    CODE              Offs=0004D7  Size=00003C  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(memset.o):
+    CODE              Offs=000513  Size=00005D  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(mul8.o):
+    CODE              Offs=000570  Size=00003A  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(mulax3.o):
+    CODE              Offs=0005AA  Size=000011  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(popptr1.o):
+    CODE              Offs=0005BB  Size=00000E  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(pushax.o):
+    CODE              Offs=0005C9  Size=00001A  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(shrax3.o):
+    CODE              Offs=0005E3  Size=00000E  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(system_check.o):
+    SYSCHK            Offs=000000  Size=0000F6  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(udiv.o):
+    CODE              Offs=0005F1  Size=00004F  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(zerobss.o):
+    CODE              Offs=000640  Size=000023  Align=00001  Fill=0000
+c:\cc65\lib/atari.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000082  00009B  00001A  00001
+STARTUP               002000  002062  000063  00001
+ONCE                  002063  00206E  00000C  00001
+CODE                  00206F  0026D1  000663  00001
+RODATA                0026D2  0026DD  00000C  00001
+DATA                  0026DE  002762  000085  00001
+BSS                   002763  002777  000015  00001
+SYSCHK                002E00  002EF5  0000F6  00001
+
+
+Exports list by name:
+---------------------
+__BSS_RUN__               002763 RLA    __BSS_SIZE__              000015 REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     00206F RLA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      0026DE RLA    
+__LOWCODE_RUN__           002063 RLA    __LOWCODE_SIZE__          000000 REA    
+__RESERVED_MEMORY__       000000 REA    __STACKSIZE__             000800 REA    
+__STARTADDRESS__          002000 REA    __STARTUP__               000001 REA    
+__SYSCHKHDR__             000000 REA    __SYSCHKTRL__             000000 REA    
+__SYSTEM_CHECK__          002E47 REA    _bzero                    002582 RLA    
+_main                     0023F1 RLA    _memcpy                   002546 RLA    
+_memset                   00258A RLA    callmain                  0024F0 RLA    
+decsp1                    002513 RLA    decsp2                    00251C RLA    
+donelib                   002507 RLA    incsp1                    002529 RLA    
+incsp2                    002538 RLA    initlib                   002063 RLA    
+mulax3                    002619 RLA    popax                     002530 RLA    
+popptr1                   00262A RLA    ptr1                      00008A RLZ    
+ptr2                      00008C RLZ    ptr3                      00008E RLZ    
+ptr4                      000090 RLZ    pusha0                    00263A RLA    
+pushax                    00263C RLA    shrax3                    002652 RLA    
+sp                        000082 RLZ    sreg                      000084 RLZ    
+start                     002001 RLA    tmp1                      000092 RLZ    
+tosaddax                  0024D6 RLA    tosmula0                  0025DF RLA    
+tosudiva0                 002660 RLA    tosumula0                 0025DF RLA    
+zerobss                   0026AF RLA    
+
+
+Exports list by value:
+----------------------
+__SYSCHKTRL__             000000 REA    __RESERVED_MEMORY__       000000 REA    
+__LOWCODE_SIZE__          000000 REA    __CONSTRUCTOR_COUNT__     000000 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __SYSCHKHDR__             000000 REA    
+__STARTUP__               000001 REA    __BSS_SIZE__              000015 REA    
+sp                        000082 RLZ    sreg                      000084 RLZ    
+ptr1                      00008A RLZ    ptr2                      00008C RLZ    
+ptr3                      00008E RLZ    ptr4                      000090 RLZ    
+tmp1                      000092 RLZ    __STACKSIZE__             000800 REA    
+__STARTADDRESS__          002000 REA    start                     002001 RLA    
+__LOWCODE_RUN__           002063 RLA    initlib                   002063 RLA    
+__CONSTRUCTOR_TABLE__     00206F RLA    _main                     0023F1 RLA    
+tosaddax                  0024D6 RLA    callmain                  0024F0 RLA    
+donelib                   002507 RLA    decsp1                    002513 RLA    
+decsp2                    00251C RLA    incsp1                    002529 RLA    
+popax                     002530 RLA    incsp2                    002538 RLA    
+_memcpy                   002546 RLA    _bzero                    002582 RLA    
+_memset                   00258A RLA    tosmula0                  0025DF RLA    
+tosumula0                 0025DF RLA    mulax3                    002619 RLA    
+popptr1                   00262A RLA    pusha0                    00263A RLA    
+pushax                    00263C RLA    shrax3                    002652 RLA    
+tosudiva0                 002660 RLA    zerobss                   0026AF RLA    
+__DESTRUCTOR_TABLE__      0026DE RLA    __BSS_RUN__               002763 RLA    
+__SYSTEM_CHECK__          002E47 REA    
+
+
+Imports list:
+-------------
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+    system_check.o            atari/system_check.s(23)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+    system_check.o            atari/system_check.s(23)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__LOWCODE_RUN__ ([linker generated]):
+    crt0.o                    atari/crt0.s(18)
+__LOWCODE_SIZE__ ([linker generated]):
+    crt0.o                    atari/crt0.s(18)
+__RESERVED_MEMORY__ ([linker generated]):
+    system_check.o            atari/system_check.s(25)
+    crt0.o                    atari/crt0.s(16)
+    [linker generated]        atari.cfg(19)
+__STACKSIZE__ ([linker generated]):
+    system_check.o            atari/system_check.s(24)
+    [linker generated]        atari.cfg(19)
+__STARTADDRESS__ ([linker generated]):
+    system_check.o            atari/system_check.s(20)
+__STARTUP__ (crt0.o):
+    main.o                    main.s(24)
+__SYSCHKHDR__ ([linker generated]):
+    system_check.o            atari/system_check.s(28)
+__SYSCHKTRL__ ([linker generated]):
+    system_check.o            atari/system_check.s(28)
+__SYSTEM_CHECK__ (system_check.o):
+    [linker generated]        atari.cfg(27)
+    [linker generated]        atari.cfg(7)
+_bzero (memset.o):
+    main.o                    main.s(30)
+_main (main.o):
+    callmain.o                runtime/callmain.s(11)
+_memcpy (memcpy.o):
+    main.o                    main.s(28)
+_memset (memset.o):
+    main.o                    main.s(29)
+callmain (callmain.o):
+    crt0.o                    atari/crt0.s(15)
+decsp1 (decsp1.o):
+    main.o                    main.s(1052)
+decsp2 (decsp2.o):
+    main.o                    main.s(1052)
+donelib (condes.o):
+    crt0.o                    atari/crt0.s(14)
+incsp1 (incsp1.o):
+    main.o                    main.s(1052)
+incsp2 (incsp2.o):
+    popptr1.o                 runtime/popptr1.s(8)
+    main.o                    main.s(1052)
+initlib (condes.o):
+    crt0.o                    atari/crt0.s(14)
+mulax3 (mulax3.o):
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+popax (incsp2.o):
+    memset.o                  common/memset.s(19)
+    memcpy.o                  common/memcpy.s(14)
+popptr1 (popptr1.o):
+    udiv.o                    runtime/udiv.s(9)
+    mul8.o                    runtime/mul8.s(9)
+    memcpy.o                  common/memcpy.s(14)
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s(9)
+    udiv.o                    runtime/udiv.s(10)
+    popptr1.o                 runtime/popptr1.s(9)
+    mulax3.o                  runtime/mulax3.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    main.o                    main.s(11)
+ptr2 (zeropage.o):
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+ptr3 (zeropage.o):
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    mul8.o                    runtime/mul8.s(10)
+pusha0 (pushax.o):
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+pushax (pushax.o):
+    callmain.o                runtime/callmain.s(11)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+shrax3 (shrax3.o):
+    main.o                    main.s(1052)
+sp (zeropage.o):
+    pushax.o                  runtime/pushax.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
+    add.o                     runtime/add.s(12)
+    main.o                    main.s(10)
+sreg (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+start (crt0.o):
+    [linker generated]        atari.cfg(26)
+tmp1 (zeropage.o):
+    shrax3.o                  runtime/shrax3.s(8)
+    add.o                     runtime/add.s(12)
+tosaddax (add.o):
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+tosmula0 (mul8.o):
+    main.o                    main.s(1052)
+tosudiva0 (udiv.o):
+    main.o                    main.s(1052)
+tosumula0 (mul8.o):
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+    main.o                    main.s(1052)
+zerobss (zerobss.o):
+    crt0.o                    atari/crt0.s(15)
+
